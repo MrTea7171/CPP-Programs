@@ -1,0 +1,33 @@
+1. endl
+		Inserts a new-line character
+2. setfill
+		#include <iostream>     
+		#include <iomanip>      
+		int main () 
+		{
+			cout << setfill ('x') << setw (10);
+			cout << 77 << endl;
+			return 0;
+		}
+3. setprecision
+		#include <iostream>     
+		#include <iomanip>     
+		int main () 
+		{
+			double f =3.14159;
+			cout << setprecision(5) << f << '\n';
+			cout << setprecision(9) << f << '\n';
+			cout << fixed;
+			cout << setprecision(5) << f << '\n';
+			cout << setprecision(9) << f << '\n';
+			return 0;
+		}
+4. setw
+		#include <iostream>     
+		#include <iomanip>      
+		int main () 
+		{
+			cout << setw(10);
+			cout << 77 << endl;
+			return 0;
+		}
